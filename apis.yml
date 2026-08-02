@@ -1,7 +1,27 @@
 aid: vium
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vium.png
 name: Vium
-description: Vium is a company surfaced as a portfolio company of dcvc, lux-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Vium was a preclinical biotechnology company that operated a "digital
+  vivarium" — a cloud-connected laboratory platform that continuously monitored
+  laboratory animals with sensors and computer vision to generate high-resolution
+  physiological and behavioral data for pharmaceutical drug discovery and
+  toxicology studies. Backed by DCVC and Lux Capital, Vium was acquired by
+  Recursion Pharmaceuticals in 2021 and no longer operates as an independent
+  company. Its former primary domain (vium.com) is now parked and listed for
+  sale, and it publishes no live developer portal, documentation, or API surface
+  to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/vium/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,28 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-detail: Acquired by Recursion Pharmaceuticals in 2021; independent operations ceased.
+x-acquired-by: recursion-pharmaceuticals
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Preclinical Research
+- Laboratory
+- Life Sciences
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
