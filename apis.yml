@@ -66,3 +66,9 @@ x-enrichment:
   status: nochange
   artifacts_added: 0
   pass: local-v1
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/recursion-pharmaceuticals/
+  name: Recursion Pharmaceuticals
+  x-relationship: acquired
+  x-evidence: "Backed by DCVC and Lux Capital, Vium was acquired by Recursion Pharmaceuticals in 2021 and no longer operates as an independent company."
